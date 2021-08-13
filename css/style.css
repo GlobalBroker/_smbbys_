@@ -1,18 +1,129 @@
-.menu{
-    text-align: center;
+body{
+    font-family:"ROBOTO", sans-serif;
+}
+header nav {
+    background-color: #212121;
+
     
 }
-body{
-    background: url(../img/bg.png);
+.nav{
+   justify-content: center; 
 }
-.fa{
-    font-size: 150px;
-    color: black;
+.nav .nav-link{
+    color: #fff;
+    margin: 0 15px;
 }
-.menu h1{
-    margin-bottom: 50px;
+.sub-header{
+    background-color:  rgb(0,0,0,0.6);
+    padding: 20px 0;
+    position: relative;
+    z-index: 1;
+
 }
-.menu img{
-    height: 180px;
-    width: 200px;
+.nav .nav-item{
+    border-right: 1px dashed #000;
+    margin: 10px 0;
+}
+.header-callback{
+    width: 172px;
+    height: 46px;
+    
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    text-transform: uppercase;
+    line-height: 46px;
+    
+
+}
+.header-callback:hover{
+    color: #fff;
+    text-decoration:none;
+}
+.header-slogan{
+font-size: 13px;
+font-weight:100px;
+color: #fff;
+opacity: 0.5;
+}
+.phon-info{
+font-size: 12px;
+line-height: 14px;
+color: #fff;
+}
+.header-phon{
+    font-size: 22px;
+    color: #fff; 
+}
+.header-phon:hover{
+    color: rgb(0, 255, 191);
+}
+.promo{
+    min-height: 800px;
+    background: url(../img/uber_bg.jpg)  no-repeat 0 0 /cover;
+    color: #fff;
+    text-align: center;
+    padding-top: 140px ;
+    transform:translateY(-91px) ;
+}
+.promo-title{
+    font-weight: 900px;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.promo-subtitle{
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.promo-text p{
+    margin-bottom: 120px;
+}
+.promo-button{
+    width: 259px;
+    height: 63px;
+
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+    line-height: 63px;
+    color: #fff;
+    font-size: 18px;
+    
+}
+.promo-button:hover{
+    color: #fff;
+    text-decoration:none;
+}
+.advantages .img-box {
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    text-align: center;
+    line-height: 116px;
+    border-radius: 50%;
+}
+.mt-0{
+    color: #1EACC7;
+}
+.media{
+padding-left: 32px;
+}    
+.small-title{
+    width: 115px;
+    height: 27px;
+    background: #000;
+    color: #fff;
+    font-size: 11px;
+    line-height: 27px;
+    text-align: center;
+    margin: 0 auto 20px;
+    
 }
